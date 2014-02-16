@@ -34,9 +34,6 @@
           VIEW
 
         init: (cls, inner, self) ->
-          # div
-          
-          # close.
           div = DIV(
             style:
               fontSize: 50
@@ -44,7 +41,6 @@
             childs: [SPAN(childs: "Hello UPPERCASE!")]
           ).appendTo(BODY)
           
-          #OVERRIDE: self.close
           self.close = close = (params) ->
             div.remove()
             return

@@ -17,11 +17,11 @@
             devMode: true
 
         SERVER_CONFIG:
-            isUsingDB: true
-            isRequiringDBAuth: false
+            isNotUsingDB: true
+            isNotRequiringDBAuth: false
 
         BROWSER_CONFIG:
-            isSupportingHD: false
+            isSupportingHD: true
             isSupportingLayerOnCanvas: true
 
 

@@ -37,4 +37,4 @@ Hello COFFEECASE를 HTML의 body 태그 밑에 p 태그 안으로 넣는다. 가
         BROWSER_CONFIG:
             MAIN: main
 
-실행은 "nodemon SingleFileModeExample.litcoffee"로 한다.
+실행은 ``` nodemon SingleFileModeExample.litcoffee ```로 한다.

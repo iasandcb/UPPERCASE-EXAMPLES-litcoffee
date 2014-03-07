@@ -1,9 +1,9 @@
 # 단일 파일 예제
-Hello COFFEECASE를 만들어 보자. 먼저 파일 하나에서 모든 것을 하기 위해 UPPERCASE_ONE 박스를 사용한다. 
+Hello COFFEECASE를 만들어 보자. 먼저 파일 하나에서 모든 것을 하기 위해 UPPERCASE_ONE 박스를 사용한다.
 
     require "./UPPERCASE_ONE/BOOT.js"
 
-BROWSER_CONFIG의 MAIN 값을 main 변수로 뽑아낸다. 이렇게 뽑아내는 것이 들여쓰기를 가장 줄인 형태이다. 
+BROWSER_CONFIG의 MAIN 값을 main 변수로 뽑아낸다. 이렇게 뽑아내는 것이 들여쓰기를 가장 줄인 형태이다.
 
     main = (BOX) ->
         BOX.MATCH_VIEW
@@ -32,7 +32,7 @@ Hello COFFEECASE를 HTML의 body 태그 밑에 p 태그 안으로 넣는다. 가
             isDevMode: true
 
         SERVER_CONFIG:
-            isNotUseDB: true
+            isNotUsingDB: true
 
         BROWSER_CONFIG:
             MAIN: main
